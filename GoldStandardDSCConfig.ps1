@@ -171,7 +171,7 @@ Configuration M365TenantConfig
         TeamsMeetingBroadcastPolicy GlobalMeetingBroadcastPolicy
         {
             AllowBroadcastScheduling        = $True;
-            AllowBroadcastTranscription     = $False;
+            AllowBroadcastTranscription     = $True;
             BroadcastAttendeeVisibilityMode = "EveryoneInCompany";
             BroadcastRecordingMode          = "AlwaysEnabled";
             Ensure                          = "Present";
